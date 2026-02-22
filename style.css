@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+
+header {
+    background-color: #0f0f0f;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo i {
+    color: red;
+}
+
+.recherche {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    background: #1d1d1d;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.recherche input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    outline: none;
+}
+
+.recherche button {
+    border: none;
+    background: #2c2c2c;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.icons i {
+    margin-left: 20px;
+    cursor: pointer;
+}
+.categories {
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20%;
+    justify-content: space-between;
+
+}
+
+.categories a {
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.bare {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 52);
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: -2px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.ACC {
+    margin-left: 12px;
+    font-size: 20px;
+    margin-top: -25px;
+    padding: 20px;
+}
+
+.ACC i {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Short {
+    margin-left: 12px;
+    font-size: 20px;
+    margin-top: -25px;
+    padding: 20px;
+}
+
+.Short i {
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.Abonnement {
+    margin-left: 12px;
+    font-size: 20px;
+    margin-top: -25px;
+    text-align: left;
+}
+
+.Abonnement i {
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.Vous {
+    margin-left: 12px;
+    font-size: 20px;
+    margin-top: -25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.Vous i {
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: -2px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.video-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(29, 29, 29);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content-right {
+    width: 78%;
+    height: auto;
+    margin-left: 20%;
+    justify-content: space-between;
+}
+
+.Ligne-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: -300px;
+}
+
+
+.video-1 {
+    width: 300px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+.user-1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.user-1 video {
+    border-radius: 15px;
+}
+
+.video-2 {
+    width: 300px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+.user-2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.user-2 video {
+    border-radius: 15px;
+}
+
+.video-3 {
+    width: 300px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.user-3 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.user-3 video {
+    border-radius: 15px;
+}
+
+.Ligne-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.Ligne-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.Ligne-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+.Ligne-5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
